@@ -1,0 +1,13 @@
+.statusOnline {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.statusOffline {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
