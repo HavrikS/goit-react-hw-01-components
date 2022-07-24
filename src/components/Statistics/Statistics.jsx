@@ -7,8 +7,8 @@ import css from './Statistics.module.css'
 export const Statistics = ({title, stats}) => {  
     return (
         title ?
-            <section className="statistics">
-                <h2 className="title">{title}</h2>
+            <section className={css.statistics}>
+                <h2 className={css.title}>{title}</h2>
 
                 <ul className={css.statList}>
                     {stats.map(stat => (
@@ -16,7 +16,7 @@ export const Statistics = ({title, stats}) => {
                     ))}
                 </ul>
             </section>:
-            <section className="statistics">                
+            <section className={css.statistics}>                
                 <ul className={css.statList}>
                     {stats.map(stat => (
                         <StatisticCard key={stat.id} label={stat.label} percentage={stat.percentage} />

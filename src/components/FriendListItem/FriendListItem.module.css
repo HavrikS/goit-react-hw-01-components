@@ -2,6 +2,7 @@
     display: block;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
     background-color: green;
 }
 
@@ -9,5 +10,21 @@
     display: block;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
     background-color: red;
+}
+
+.item {
+    border: 1px solid;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    display: flex;    
+    align-items: center;
+}
+
+.avatar {
+    margin: 0 20px;
+    width: 48px;
+    height: auto;
 }
