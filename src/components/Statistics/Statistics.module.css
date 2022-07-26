@@ -24,3 +24,11 @@
     font-weight: 500;
     padding: 20px 0px;
 }
+
+.item {
+    border: 1px solid;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
